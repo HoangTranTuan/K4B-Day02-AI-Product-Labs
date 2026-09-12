@@ -6,7 +6,7 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
-| 1   | Trần Tuấn Hoàng |             | facilitator                                                   |
+| 1   | Trần Tuấn Hoàng | 2A202602832 | facilitator                                                   |
 | 2   | Nguyễn Minh Ngọc | 2A202602530 | workflow                                                      |
 | 3   | Nguyễn Tiến Lượng | 2A202602378 | research                                                      |
 | 4   | Lục Tiến Đạt | 2A202602969 | writer                                                        |
