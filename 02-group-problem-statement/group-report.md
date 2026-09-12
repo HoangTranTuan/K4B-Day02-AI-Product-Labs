@@ -20,11 +20,19 @@
 
 ### 3.1. Trình bày top 3 mỗi người (mỗi candidate 1-2 phút)
 
-| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh của nhóm |
-|---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+> Dữ liệu hiện có mới bao gồm top 3 của Nguyễn Tiến Lượng. Ba dòng dưới đây là phần pitch cá nhân để nhóm bắt đầu thảo luận; các thành viên khác cần bổ sung top 3 của mình trước khi cluster và chấm điểm ở mục 3.2–3.4. “Cảm nhận nhanh” là đánh giá ban đầu dựa trên evidence trong `individual-report.md`, chưa phải kết luận cuối của cả nhóm.
+
+| # | Người đưa ra                    | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh của nhóm |
+|---|---------------------------------|---|---|---|---|
+| 1 | Nguyễn Tiến Lượng (2A202602378) | **Bug report thiếu thông tin khi handoff:** Khi member monitor báo lỗi cho developer, report thiếu log, timestamp, thiết bị hoặc điều kiện xảy ra nên developer phải hỏi lại trước khi điều tra. | Member đội monitor; developer/software và hardware. | Kiểm tra độ đầy đủ của report và hỏi lại sau handoff; mỗi lỗi phát sinh khoảng 2–3 lượt hỏi và mất thêm 10–20 phút. | Ứng viên shortlist mạnh; có thể bắt đầu bằng form/checklist không dùng AI. Cần xác minh số lỗi/tuần và bộ trường bắt buộc. |
+| 2 | Nguyễn Tiến Lượng (2A202602378) | **Phát hiện bất thường từ trạng thái hệ thống và log:** Member monitor phải nhiều lần đọc và đối chiếu trạng thái/log rồi tổng hợp thông tin gửi software/hardware. | Member đội monitor; đội software và hardware. | Đọc, đối chiếu nhiều dòng log và tổng hợp thủ công; kiểm tra 3–5 lần/ngày, tổng khoảng 30–60 phút/ngày. | Impact lớn nhưng cần kiểm chứng; nên thử Rule/dashboard trước. Chưa có baseline về cảnh báo sai, bỏ sót và thời gian phát hiện. |
+| 3 | Nguyễn Tiến Lượng (2A202602378) | **Tổng hợp daily note:** Mỗi ngày member gom tiến độ, vấn đề phát sinh và action item để gửi team software/hardware. | Member monitor; PM; member đội software/hardware. | Gom update rải rác, chọn nội dung và viết/format daily note; khoảng 15–20 phút/lần, 5 lần/tuần. | Dễ vẽ before/after; impact khoảng 75–100 phút/tuần/member. Cần đo riêng thời gian thu thập và viết; có thể trùng weekly report #3. |
+
+#### Draft future workflow dùng khi pitch
+
+1. **Bug report thiếu thông tin:** `Phát hiện lỗi → form/checklist trường bắt buộc → Rule kiểm tra thiếu trường → monitor xác nhận → developer nhận report`. AI chỉ là bước mở rộng để đọc mô tả tự do và tạo câu hỏi bổ sung; nếu AI không chắc thì quay về form thủ công.
+2. **Phát hiện bất thường từ log:** `Rule/dashboard lọc tín hiệu → monitor xem log liên quan → chuẩn hóa incident note → gửi software/hardware`. Chỉ thêm AI để nhóm/tóm tắt log sau khi Rule đã lọc; không để AI tự kết luận root cause hoặc tự thay đổi hệ thống.
+3. **Daily note:** `Template/input chuẩn → gom các update trong ngày → AI sắp xếp/tóm tắt bản nháp → member monitor review → gửi PM/software/hardware`. Nếu input thiếu context hoặc bản nháp sai, member bỏ draft và viết theo template/checklist.
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
